@@ -1,18 +1,16 @@
 <script setup>
 import { RouterLink, RouterView } from 'vue-router'
-import HomeView from "./views/HomeView.vue"
+import HomeView from "./views/HomeView.vue";
+import SurveyView from "./views/Survey.vue";
 
 </script>
 
 <template>
   <div>
-  <HomeView />
-  <!-- <RouterLink to="/">Home</RouterLink>
-  <RouterLink to="/about">About</RouterLink> -->
+    <RouterView />
   </div>
-  <RouterView />
 </template>
 
-<style scoped>
+<style lang="scss" scoped>
 
 </style>

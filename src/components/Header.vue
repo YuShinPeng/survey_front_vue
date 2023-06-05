@@ -11,8 +11,9 @@
 
 <style lang="scss" scoped>
     h1{
+        margin-top: 20px;
         display: flex;
         justify-content: center;
-        color: blue;
+        color: rgb(30, 171, 219);
     }
 </style>
